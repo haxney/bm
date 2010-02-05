@@ -1,4 +1,4 @@
-;;; bm.el  -- Visible bookmarks in buffer.
+;;; bm.el --- Visible bookmarks in buffer.
 
 ;; Copyrigth (C) 2000-2009  Jo Odland
 
@@ -1133,6 +1133,5 @@ bookmark we use it, otherwise we use the context after."
 (if bm-restore-repository-on-load
     (bm-repository-load))
 
-
-;; bm.el ends here
 (provide 'bm)
+;;; bm.el ends here
