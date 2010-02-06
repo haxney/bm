@@ -1,9 +1,9 @@
 ;;; bm.el --- Visible bookmarks in buffer.
 
-;; Copyrigth (C) 2000-2009  Jo Odland
+;; Copyright (C) 2000-2009  Jo Odland
 
 ;; Author: Jo Odland <jo.odland(at)gmail.com>
-;; Version: $Id: bm.el,v 1.37 2009/09/12 23:00:32 jood Exp $
+;; Version: $Id: bm.el,v 1.37.1 2009/09/12 23:00:32 jood Exp $
 ;; Keywords; bookmark, highlight, faces, persistent
 ;; URL: http://www.nongnu.org/bm/
 
@@ -986,7 +986,7 @@ bookmark we use it, otherwise we use the context after."
           (message "%d bookmark(s) restored." count)
         (message "%d bookmark(s) restored based on context." count)))))
 
-
+;;;###autoload
 (defun bm-buffer-save nil
   "Save all bookmarks to repository."
   (interactive)
